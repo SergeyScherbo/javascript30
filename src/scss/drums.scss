@@ -32,6 +32,7 @@ body {
   height: 80px;
   line-height: normal;
   border-radius: 5px;
+  border: 3px solid #000;
   text-transform: uppercase;
   transition: .07s;
   background-color: fade-out(#333, .1);
@@ -42,7 +43,7 @@ body {
   }
 
   p {
-    margin-top: 15px;
+    margin-top: 12px;
     margin-bottom: 5px;
     font-size: 2rem;
     color: #fff;
@@ -55,7 +56,6 @@ body {
 }
 
 .play {
-  border: 3px solid #000;
   box-shadow: 0 0 1px 3px yellow;
   transform: scale(1.1);
 }
