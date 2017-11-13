@@ -24,6 +24,12 @@ function numberWithCommas(x) {
 }
 
 function displayMatches() {
+  if (this.value === '') {
+    return suggestions.innerHTML = `
+      <li>Filter for a City</li>
+      <li>Or a State</li>
+    `;
+  }
   const matchArray = findMatches(this.value, cities);
   const html = matchArray.map(place => {
     const regex = new RegExp(this.value, 'gi');

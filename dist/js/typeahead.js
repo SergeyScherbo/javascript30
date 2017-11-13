@@ -28,6 +28,9 @@ function numberWithCommas(x) {
 function displayMatches() {
   var _this = this;
 
+  if (this.value === '') {
+    return suggestions.innerHTML = '\n      <li>Filter for a City</li>\n      <li>Or a State</li>\n    ';
+  }
   var matchArray = findMatches(this.value, cities);
   var html = matchArray.map(function (place) {
     var regex = new RegExp(_this.value, 'gi');
