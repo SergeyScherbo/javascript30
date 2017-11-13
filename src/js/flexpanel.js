@@ -7,7 +7,11 @@ function toggleOpen() {
     }
   }
 
-  this.classList.toggle('open');
+  if (this.classList.contains('open')) {
+    this.classList.remove('open');
+  } else {
+    this.classList.toggle('open');
+  }
 }
 
 function toggleActive(e) {
