@@ -122,8 +122,7 @@ body {
 .progress__filled {
   width: 0;
   background: #ffc600;
-  flex: 0;
-  flex-basis: 50%; }
+  flex: 0; }
 
 /* unholy css to style input type="range" */
 input[type=range] {
