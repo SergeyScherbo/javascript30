@@ -1,0 +1,87 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  /* Important! */
+  font-family: sans-serif;
+  background: linear-gradient(45deg, #ff1a66 0%, rgba(255, 26, 102, 0) 70%), linear-gradient(135deg, #0643f9 10%, rgba(6, 67, 249, 0) 80%), linear-gradient(225deg, #0df259 10%, rgba(13, 242, 89, 0) 80%), linear-gradient(315deg, #f99e1f 100%, rgba(249, 158, 31, 0) 70%); }
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 500px;
+  font-size: 20px;
+  line-height: 2;
+  position: relative; }
+
+a {
+  text-decoration: none;
+  color: black;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 20px; }
+
+.highlight {
+  transition: all 0.2s;
+  border-bottom: 2px solid white;
+  position: absolute;
+  top: 0;
+  background: white;
+  left: 0;
+  z-index: -1;
+  border-radius: 20px;
+  display: block;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); }
+
+.menu {
+  padding: 0;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin: 100px 0; }
+
+.menu a {
+  display: inline-block;
+  padding: 5px;
+  margin: 0 20px;
+  color: black; }
